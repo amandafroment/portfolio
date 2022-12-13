@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -23,6 +24,10 @@ html {
   height: 100vh;
   background-color: white;
   position: absolute;
+}
+
+.header-name {
+  color: #88a17b;
 }
 
 .header-container > h1 {
@@ -80,10 +85,6 @@ html {
   right: 0;
 }
 
-.header-name {
-  color: #88a17b;
-}
-
 .sections-container {
   display: flex;
   flex-direction: column;
@@ -97,18 +98,19 @@ html {
   flex-direction: column;
   align-items: center;
   height: 75vh;
-  background-color: #88a17b;
+  /* background-color: #88a17b; */
+  background-image: linear-gradient(to bottom right, #88a17b, #c5deb7);
   top: 100vh;
   width: 100vw;
 }
 
 .about-me-container > h2 {
   width: 50vw;
-  height: 10px;
-  padding: 10px;
-  font-size: 35px;
-
+  font-size: 45px;
+  color: white;
+  font-family: Sriracha;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .about-me-content {
@@ -119,13 +121,22 @@ html {
 }
 
 .about-me-picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 50vw;
-  background-color: blue;
+}
+
+.profile-pic {
+  height: 75%;
+  border-radius: 5px;
 }
 
 .about-me-description {
+  font-size: 20px;
   width: 50vw;
-  background-color: black;
+  padding-right: 75px;
+  color: white;
 }
 
 .projects-container {
