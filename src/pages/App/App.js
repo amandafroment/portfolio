@@ -15,14 +15,20 @@ export default function App() {
             functional web applications for our communities.
           </h1>
           <button className="learn-more">
-            <a href="#about-me">Learn More</a>
+            <a href="#about-me">Learn More </a>
           </button>
         </div>
-        <div id="about-me" className="about-me">
-          New Div
+        <div className="sections-container">
+          <div id="about-me" className="about-me-container">
+            <h2>About Me</h2>
+            <div className="about-me-content">
+              <div className="about-me-picture"></div>
+              <div className="about-me-description"></div>
+            </div>
+          </div>
+          <div className="projects-container">project div</div>
+          <Footer />
         </div>
-
-        {/* <Footer /> */}
       </main>
     </>
   );

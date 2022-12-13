@@ -6,7 +6,25 @@ export default function Footer() {
     <>
       <div className="Footer">
         <p>
-          <span>Github</span> | <span>Indeed</span>
+          <span>
+            <a
+              href="https://github.com/amandafroment"
+              target="_blank"
+              className="github-link"
+            >
+              Github
+            </a>
+          </span>{" "}
+          |{" "}
+          <span>
+            <a
+              href="https://www.linkedin.com/in/amanda-froment/"
+              target="_blank"
+              className="indeed-link"
+            >
+              Indeed
+            </a>
+          </span>
         </p>
         <span>@2022 - Amanda Froment. Made with React.</span>
       </div>

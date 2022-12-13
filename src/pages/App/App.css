@@ -39,29 +39,99 @@ html {
 
 .learn-more {
   font-family: Mulish;
-  width: 100px;
+  width: 10em;
   height: 3em;
   padding: 10px;
   background-color: white;
-  border: 1px solid #88a17b;
+  border: 2px solid #88a17b;
+  color: #88a17b;
+  font-size: 22px;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-iteration-count: initial;
+}
+
+.learn-more > a {
+  color: #88a17b;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+
+.learn-more a:after {
+  content: "\003E";
+  margin-left: 10px;
+  size: 5em;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
   color: #88a17b;
 }
 
-.learn-more:hover {
-  background-color: #88a17b;
-  color: white;
-  cursor: pointer;
+.learn-more a:hover {
+  padding-right: 15px;
+}
+
+.learn-more:hover a:after {
+  opacity: 1;
+  right: 0;
 }
 
 .header-name {
   color: #88a17b;
 }
 
-.about-me {
-  height: 50vh;
-  background-color: green;
+.sections-container {
+  display: flex;
+  flex-direction: column;
   top: 100vh;
   position: absolute;
+  width: 100vw;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  background-color: #88a17b;
+  top: 100vh;
+  width: 100vw;
+}
+
+.about-me-container > h2 {
+  width: 50vw;
+  height: 10px;
+  padding: 10px;
+  font-size: 35px;
+
+  text-align: center;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 95%;
+}
+
+.about-me-picture {
+  width: 50vw;
+  background-color: blue;
+}
+
+.about-me-description {
+  width: 50vw;
+  background-color: black;
+}
+
+.projects-container {
+  height: 75vh;
+  background-color: pink;
+  width: 100vw;
 }
 
 @keyframes intro {
