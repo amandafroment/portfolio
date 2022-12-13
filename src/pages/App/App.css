@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -18,6 +22,7 @@
   align-items: center;
   height: 100vh;
   background-color: white;
+  position: absolute;
 }
 
 .header-container > h1 {
@@ -50,6 +55,13 @@
 
 .header-name {
   color: #88a17b;
+}
+
+.about-me {
+  height: 50vh;
+  background-color: green;
+  top: 100vh;
+  position: absolute;
 }
 
 @keyframes intro {

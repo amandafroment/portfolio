@@ -14,12 +14,12 @@ export default function App() {
             I am a software developer with a passion for creating eye catching &
             functional web applications for our communities.
           </h1>
-          <button
-            className="learn-more"
-            onClick={() => setLearnMore("clicked")}
-          >
-            Learn More
+          <button className="learn-more">
+            <a href="#about-me">Learn More</a>
           </button>
+        </div>
+        <div id="about-me" className="about-me">
+          New Div
         </div>
 
         {/* <Footer /> */}
