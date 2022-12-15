@@ -1,7 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import Footer from "../../components/Footer/Footer";
-import img from "../../images/profile-pic.jpeg";
+// import img from "../../images/fullsize-profile.jpg";
+import img from "../../images/about-me-pic.jpeg";
 
 export default function App() {
   return (
@@ -19,31 +20,31 @@ export default function App() {
         </div>
         <div className="sections-container">
           <div id="about-me" className="about-me-container">
-            <h2>ABOUT ME</h2>
-            <div className="about-me-content">
-              <div className="about-me-picture">
-                <img
-                  src={img}
-                  className="profile-pic"
-                  alt="profile picture"
-                ></img>
-              </div>
-              <div className="about-me-description">
-                <p>
-                  In April 2022, I decided to make a career switch to something
-                  completely out of my comfort zone: software engineering.
-                  Coming from a mental health education background and already
-                  running my own personal training business, this step into a
-                  new space was a bit daunting, yet it felt like the perfect
-                  fit.
-                </p>
-                <p>
-                  Software engineering fills that creative itch I have, while
-                  also giving me the opportunity to work on collaborative &
-                  diverse teams. Creating web applications allows me to still
-                  help the communities around me by providing engaging & useful
-                  online spaces.
-                </p>
+            <div className="about-me-description">
+              <p>
+                In April 2022, I decided to make a career switch to something
+                completely out of my comfort zone: software engineering. Coming
+                from a mental health education background and already running my
+                own personal training business, this step into a new space was a
+                bit daunting, yet it felt like the perfect fit.
+              </p>
+              <p>
+                Software engineering fills that creative itch I have, while also
+                giving me the opportunity to work on collaborative & diverse
+                teams. Creating web applications allows me to still help the
+                communities around me by providing engaging & useful online
+                spaces.
+              </p>
+            </div>
+            <div className="about-me-picture">
+              <img
+                src={img}
+                className="profile-pic"
+                alt="profile picture"
+              ></img>
+            </div>
+            <div className="technologies-container">
+              <div className="technologies-description">
                 <p>The technologies I use include: </p>
                 <ul>
                   <li>HTML5 & CSS3</li>
