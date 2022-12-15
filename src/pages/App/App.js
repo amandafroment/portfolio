@@ -33,9 +33,9 @@ export default function App() {
                   In April 2022, I decided to make a career switch to something
                   completely out of my comfort zone: software engineering.
                   Coming from a mental health education background and already
-                  running my own personal training business, this step
-                  career-wise may have seemed somewhat illogical, yet it felt
-                  like the perfect fit.
+                  running my own personal training business, this step into a
+                  new space was a bit daunting, yet it felt like the perfect
+                  fit.
                 </p>
                 <p>
                   Software engineering fills that creative itch I have, while

@@ -98,8 +98,8 @@ html {
   flex-direction: column;
   align-items: center;
   height: 75vh;
-  /* background-color: #88a17b; */
-  background-image: linear-gradient(to bottom right, #88a17b, #c5deb7);
+  background-color: #88a17b;
+  /* background-image: linear-gradient(to bottom right, #88a17b, #c5deb7); */
   top: 100vh;
   width: 100vw;
 }
