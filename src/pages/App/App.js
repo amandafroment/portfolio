@@ -52,9 +52,20 @@ export default function App() {
                   <li>Node.JS & Express.JS</li>
                   <li>MongoDB & Mongoose</li>
                   <li>Python & Django</li>
+                  <li>PostgreSQL & MySQL</li>
                   <li>React</li>
                   <li>MERN Stack Applications</li>
                 </ul>
+                <p>
+                  To learn more about me, view my
+                  <a
+                    href="/Users/amanda/Downloads/Resume%20(14).pdf"
+                    className="resume-link"
+                  >
+                    resume
+                  </a>
+                  .
+                </p>
               </div>
             </div>
           </div>
