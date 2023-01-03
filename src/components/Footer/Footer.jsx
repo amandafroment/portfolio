@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </span>
         </p>
-        <span>@2022 - Amanda Froment. Made with React.</span>
+        <span>@2022 - Amanda Froment. Created with React.</span>
       </div>
     </>
   );

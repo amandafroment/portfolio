@@ -96,11 +96,13 @@ html {
 .about-me-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 75vh;
   background-color: #88a17b;
+  /* background-image: linear-gradient(to bottom right, #5f7553, #a8c597); */
   /* background-image: linear-gradient(to bottom right, #88a17b, #c5deb7); */
+
   top: 100vh;
   width: 100vw;
 }
@@ -108,27 +110,30 @@ html {
 .about-me-description {
   display: flex;
   flex-direction: column;
-  font-size: 22px;
-  width: 32.5vw;
+  font-size: 24px;
+  width: 50vw;
   color: white;
   padding: 45px;
   position: inherit;
-  /* background-color: pink; */
+  text-align: center;
+}
+
+#dark-green-text {
+  color: #24301e;
 }
 
 .about-me-picture {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 35vw;
-  height: 100%;
+  width: 30vw;
 }
 
 .profile-pic {
   height: auto;
   width: 95%;
   min-width: 95%;
-  border-radius: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 2px #24301e;
 }
 
 .technologies-container {
@@ -150,20 +155,78 @@ html {
   position: inherit;
 }
 
-.resume-link {
-  text-decoration: none;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150vh;
+  width: 100vw;
+}
+
+.projects-container > h2 {
+  margin: 50px;
+  font-size: 35px;
   color: rgb(1, 56, 1);
 }
 
-.resume-link:hover {
-  color: white;
-  cursor: pointer;
+.individual-project-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
 }
 
-.projects-container {
-  height: 75vh;
+.project-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 30vw;
+  margin-right: 2.5%;
+}
+
+.project-image {
+  width: 110%;
+  border-radius: 5px;
+  border: 1px solid #88a17b;
+  /* padding-top: 2px; */
+}
+
+.project-side-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 95%;
+  width: 55vw;
+}
+
+.project-description {
+  width: 85%;
+}
+
+.project-description > h3 {
+  font-size: 25px;
+  color: rgb(1, 56, 1);
+}
+
+.project-description > p {
+  color: #88a17b;
+  font-size: 18px;
+}
+
+/* .project-1 {
+  background-color: blue;
+}
+
+.project-2 {
   background-color: pink;
-  width: 100vw;
+} */
+
+.project-3 {
+  margin-bottom: 50px;
 }
 
 @keyframes intro {
