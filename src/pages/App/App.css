@@ -13,7 +13,7 @@ html {
   margin: 0px;
   padding: 0px;
   font-family: Mulish;
-  background-color: white;
+  background-color: #fefefc;
 }
 
 .header-container {
@@ -22,7 +22,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: #fefefc;
   position: absolute;
 }
 
@@ -34,7 +34,7 @@ html {
   padding: 25px;
   width: 50%;
   font-size: 50px;
-  background-color: white;
+  background-color: #fefefc;
   animation-name: intro;
   animation-duration: 2s;
   animation-direction: normal;
@@ -47,7 +47,7 @@ html {
   width: 10em;
   height: 3em;
   padding: 10px;
-  background-color: white;
+  background-color: #fefefc;
   border: 2px solid #88a17b;
   color: #88a17b;
   font-size: 22px;
@@ -162,6 +162,7 @@ html {
   align-items: center;
   height: 150vh;
   width: 100vw;
+  background-color: #fefefc;
 }
 
 .projects-container > h2 {

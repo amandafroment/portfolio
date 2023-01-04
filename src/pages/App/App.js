@@ -85,18 +85,20 @@ export default function App() {
                   <h3>kinnectMe</h3>
                   <p>
                     An online directory of user created events, where users can
-                    connect with others through shared events. Once a user signs
-                    up and logs in to the app, they will be able to attend
-                    events that are created by other users in their area, or
-                    they can create their own events for other users to attend.
-                    Those who want to know more about an event can comment on
-                    the event details page to connect with the creator of the
-                    event, as well as others who are planning on attending
+                    connect with others through events. Users can sign in,
+                    create their own event, or attend events near them. Users
+                    that want to know more about an event can comment on the
+                    event details page to connect with the host or other
+                    attendees.
                   </p>
-                </div>
-                <div className="project-technologies">
-                  {" "}
-                  <h4>Technologies Used</h4>
+                  <p>
+                    #Features: JWT for authentication, CRUD operations, mobile
+                    responsive design.
+                  </p>
+                  <p>#Technologies: React.js, Express.js, Node.js, MongoDB</p>
+                  <p>
+                    <a>Explore kinnectMe</a> || <a>View the code</a>{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -109,24 +111,21 @@ export default function App() {
                   {" "}
                   <h3>BeanThere</h3>
                   <p>
-                    An online directory used for discovering your local cafe
-                    scene! It is specifically catered to students or those who
-                    work from home and are looking for great workspaces (and
-                    caffeine!) in their area. Once you have signed up and logged
-                    in, you will be able to find cafes in your area by using the
-                    search bar thanks to the YELP Fusion API. After clicking on
-                    the cafe of your choice, you will have access to more cafe
-                    details as well as reviews left by other students and
-                    WFH'ers. You can even create a review of your own to help
-                    others decide if that workspace fits their needs. Is there
-                    reliable wifi and lots of outlets? Can you bring your fury
-                    friend or sit out on the patio? Do they cater to any dietary
-                    restrictions? Let your friends on Bean There know!
+                    An online directory used for discovering local cafe scenes
+                    specifically catered to students or those who work from home
+                    and are looking for great workspaces (and caffeine!) in
+                    their area. A user can sign up and review cafes they have
+                    been to according to the working conditions. They can also
+                    favourite cafes and see other user's reviews.
                   </p>
-                </div>
-                <div className="project-technologies">
-                  {" "}
-                  <h4>Technologies Used</h4>
+                  <p>
+                    #Features: Yelp Fusion API, CRUD operations, mobile
+                    responsive design.
+                  </p>
+                  <p>#Technologies: HTML, CSS, JS, Django, PostgreSQL</p>
+                  <p>
+                    <a>Explore BeanThere</a> || <a>View the code</a>{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -139,18 +138,22 @@ export default function App() {
                   {" "}
                   <h3>YOUMOVE</h3>
                   <p>
-                    A workout planner app that allows users to plan out and make
+                    A health-focused app that allows users to plan and make
                     changes to their workouts. Each user has their own account
                     by logging in through Google - once they have logged in,
                     they are able to create workouts, as well as add exercises
                     to those specific workouts. Users are able to edit or delete
                     the exercises they add to their workouts, as well as delete
-                    entire workouts altogether. This application is mobile
-                    responsive.
+                    entire workouts altogether.
                   </p>
-                </div>
-                <div className="project-technologies">
-                  <h4>Technologies Used</h4>
+                  <p>
+                    #Features: Google Oauth, CRUD operations, mobile responsive
+                    design.
+                  </p>
+                  <p>#Technologies: CSS, Node.js, Express.js, MongoDB</p>
+                  <p>
+                    <a>Explore YOUMOVE</a> || <a>View the code</a>{" "}
+                  </p>
                 </div>
               </div>
             </div>

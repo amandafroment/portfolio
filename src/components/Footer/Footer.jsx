@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div className="Footer">
-        <p>
+        <p className="contact-info">
           <span>
             <a
               href="https://github.com/amandafroment"
@@ -15,7 +15,7 @@ export default function Footer() {
               Github
             </a>
           </span>{" "}
-          |{" "}
+          ||{" "}
           <span>
             <a
               href="https://www.linkedin.com/in/amanda-froment/"
@@ -26,7 +26,12 @@ export default function Footer() {
             </a>
           </span>
         </p>
-        <span>@2022 - Amanda Froment. Created with React.</span>
+        <span>
+          <p className="contact-info">afroment.dev@gmail.com || 905-932-0054</p>
+        </span>
+        <span className="contact-info">
+          @2022 - Amanda Froment. Created with React.
+        </span>
       </div>
     </>
   );
