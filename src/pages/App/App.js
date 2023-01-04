@@ -6,6 +6,22 @@ import profileimg from "../../images/about-me-pic.jpeg";
 import project1 from "../../images/kinnectMe-Screenshot.png";
 import project2 from "../../images/beanThere-screenshot.jpeg";
 import project3 from "../../images/YOUMOVE-screenshot.png";
+import awsimg from "../../images/AWS.png";
+import cssimg from "../../images/CSS.png";
+import djangoimg from "../../images/Django.png";
+import expressimg from "../../images/Express.png";
+import gitimg from "../../images/Git.png";
+import herokuimg from "../../images/Heroku.png";
+import htmlimg from "../../images/HTML.png";
+import jsimg from "../../images/JS.png";
+import materialimg from "../../images/Material.png";
+import mongodbimg from "../../images/MongoDB.png";
+import mongooseimg from "../../images/Mongoose.png";
+import nodeimg from "../../images/Node.png";
+import postgresqlimg from "../../images/Postgres.png";
+import pythonimg from "../../images/Python.png";
+import reactimg from "../../images/React.png";
+import sqlimg from "../../images/SQL.png";
 
 export default function App() {
   return (
@@ -34,10 +50,12 @@ export default function App() {
               <p>
                 In April 2022, I decided to make a career switch to something
                 completely out of my comfort zone:{" "}
-                <span id="dark-green-text">software engineering</span>. Coming
-                from a mental health education background and already running my
-                own personal training business, this step into a new space was a
-                bit daunting, yet it felt like the perfect fit.
+                <span id="dark-green-text">
+                  &lt; software engineering /&gt;
+                </span>
+                . Coming from a mental health education background and already
+                running my own personal training business, this step into a new
+                space was a bit daunting, yet it felt like the perfect fit.
               </p>
               <p>
                 Software engineering fills that creative itch I have, while also
@@ -47,34 +65,14 @@ export default function App() {
                 spaces.
               </p>
             </div>
-            {/* <div className="technologies-container">
-              <div className="technologies-description">
-                <p>The technologies I use include: </p>
-                <ul>
-                  <li>HTML5 & CSS3</li>
-                  <li>Javascript</li>
-                  <li>Node.JS & Express.JS</li>
-                  <li>MongoDB & Mongoose</li>
-                  <li>Python & Django</li>
-                  <li>PostgreSQL & MySQL</li>
-                  <li>React</li>
-                  <li>MERN Stack Applications</li>
-                </ul>
-                <p>
-                  To learn more about me, view my
-                  <a
-                    href="https://docs.google.com/document/d/1FFaP4AEnJZJRAhQFZkcRp98DiBTKDQKup-kJj9Hg_TE/edit?usp=sharing"
-                    className="resume-link"
-                    target="_blank"
-                  >
-                    resume
-                  </a>
-                  .
-                </p>
-              </div>
-            </div> */}
           </div>
           <div className="projects-container">
+            <div className="technologies-container">
+              <h2>Languages && Technologies</h2>
+              <div className="technology-img-container">
+                <img src={awsimg}></img>
+              </div>
+            </div>
             <h2>Previous Projects</h2>
             <div className="individual-project-container project-1">
               <div className="project-image-container">
@@ -95,9 +93,23 @@ export default function App() {
                     #Features: JWT for authentication, CRUD operations, mobile
                     responsive design.
                   </p>
-                  <p>#Technologies: React.js, Express.js, Node.js, MongoDB</p>
                   <p>
-                    <a>Explore kinnectMe</a> || <a>View the code</a>{" "}
+                    #Technologies: React.js, Express.js, Node.js, MongoDB,
+                    Axios.
+                  </p>
+                </div>
+                <div className="project-links-container">
+                  <p className="project-links">
+                    <a href="https://kinnectme.herokuapp.com/" target="_blank">
+                      Explore kinnectMe
+                    </a>{" "}
+                    ||{" "}
+                    <a
+                      href="https://github.com/amandafroment/kinnectMe"
+                      target="_blank"
+                    >
+                      Github
+                    </a>{" "}
                   </p>
                 </div>
               </div>
@@ -122,9 +134,23 @@ export default function App() {
                     #Features: Yelp Fusion API, CRUD operations, mobile
                     responsive design.
                   </p>
-                  <p>#Technologies: HTML, CSS, JS, Django, PostgreSQL</p>
-                  <p>
-                    <a>Explore BeanThere</a> || <a>View the code</a>{" "}
+                  <p>#Technologies: HTML, CSS, JS, Django, PostgreSQL.</p>
+                </div>
+                <div className="project-links-container">
+                  <p className="project-links">
+                    <a
+                      href="https://beanthereapp.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Explore BeanThere
+                    </a>{" "}
+                    ||{" "}
+                    <a
+                      href="https://github.com/amandafroment/BeanThere"
+                      target="_blank"
+                    >
+                      Github
+                    </a>{" "}
                   </p>
                 </div>
               </div>
@@ -150,9 +176,20 @@ export default function App() {
                     #Features: Google Oauth, CRUD operations, mobile responsive
                     design.
                   </p>
-                  <p>#Technologies: CSS, Node.js, Express.js, MongoDB</p>
-                  <p>
-                    <a>Explore YOUMOVE</a> || <a>View the code</a>{" "}
+                  <p>#Technologies: CSS, Node.js, Express.js, MongoDB.</p>
+                </div>
+                <div className="project-links-container">
+                  <p className="project-links">
+                    <a href="https://youmoveapp.herokuapp.com/" target="_blank">
+                      Explore YOUMOVE
+                    </a>{" "}
+                    ||{" "}
+                    <a
+                      href="https://github.com/amandafroment/YouMove"
+                      target="_blank"
+                    >
+                      Github
+                    </a>{" "}
                   </p>
                 </div>
               </div>
