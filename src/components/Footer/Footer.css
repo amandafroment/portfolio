@@ -34,3 +34,10 @@
 .contact-info {
   margin: 2px;
 }
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .Footer {
+    position: absolute;
+    font-size: 15px;
+  }
+}

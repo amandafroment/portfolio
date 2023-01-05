@@ -71,24 +71,72 @@ export default function App() {
               <h2>Languages && Technologies</h2>
               <div className="technology-section">
                 <div className="technology-img-container">
-                  <img src={htmlimg}></img>
-                  <img src={cssimg}></img>
-                  <img src={jsimg}></img>
-                  <img src={reactimg}></img>
-                  <img src={nodeimg}></img>
-                  <img src={expressimg}></img>
-                  <img src={mongodbimg}></img>
-                  <img src={mongooseimg}></img>
+                  <figure>
+                    <img src={htmlimg} className="image"></img>
+                    <figcaption>HTML</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={cssimg} className="image"></img>
+                    <figcaption>CSS</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={jsimg} className="image"></img>
+                    <figcaption>Javascript</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={reactimg} className="image"></img>
+                    <figcaption>React</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={nodeimg} className="image"></img>
+                    <figcaption>Node.js</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={expressimg} className="image"></img>
+                    <figcaption>Express.js</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={mongodbimg} className="image"></img>
+                    <figcaption>MongoDB</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={mongooseimg} className="image"></img>
+                    <figcaption>Mongoose</figcaption>
+                  </figure>
                 </div>
                 <div className="technology-img-container">
-                  <img src={pythonimg}></img>
-                  <img src={djangoimg}></img>
-                  <img src={materialimg}></img>
-                  <img src={sqlimg}></img>
-                  <img src={postgresqlimg}></img>
-                  <img src={awsimg}></img>
-                  <img src={herokuimg}></img>
-                  <img src={gitimg}></img>
+                  <figure>
+                    <img src={pythonimg} className="image"></img>
+                    <figcaption>Python</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={djangoimg} className="image"></img>
+                    <figcaption>Django</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={materialimg} className="image"></img>
+                    <figcaption>Material UI</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={sqlimg} className="image"></img>
+                    <figcaption>SQL</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={postgresqlimg} className="image"></img>
+                    <figcaption>PostgreSQL</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={awsimg} className="image"></img>
+                    <figcaption>AWS - Amazon Web Services</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={herokuimg} className="image"></img>
+                    <figcaption>Heroku</figcaption>
+                  </figure>
+                  <figure>
+                    <img src={gitimg} className="image"></img>
+                    <figcaption>Git</figcaption>
+                  </figure>
                 </div>
               </div>
             </div>

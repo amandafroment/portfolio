@@ -22,7 +22,7 @@ export default function Footer() {
               target="_blank"
               className="indeed-link"
             >
-              Indeed
+              LinkedIn
             </a>
           </span>
         </p>
