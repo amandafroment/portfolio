@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  font-family: Mulish;
+  background-color: #fefefc;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefefc;
+  position: absolute;
+}
+
+.header-name {
+  color: #88a17b;
+}
+
+.header-container > h1 {
+  padding: 25px;
+  width: 50%;
+  font-size: 50px;
+  background-color: #fefefc;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-iteration-count: initial;
+}
+
+.learn-more {
+  font-family: Mulish;
+  width: 10em;
+  height: 3em;
+  padding: 10px;
+  background-color: #fefefc;
+  border: 2px solid #88a17b;
+  color: #88a17b;
+  font-size: 22px;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-iteration-count: initial;
+}
+
+.learn-more > a {
+  color: #88a17b;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+
+.learn-more a:after {
+  content: "\003E";
+  margin-left: 10px;
+  size: 5em;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #88a17b;
+}
+
+.learn-more a:hover {
+  padding-right: 15px;
+}
+
+.learn-more:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  top: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #88a17b;
+  /* background-image: linear-gradient(to bottom right, #5f7553, #a8c597); */
+  /* background-image: linear-gradient(to bottom right, #88a17b, #c5deb7); */
+
+  top: 100vh;
+  width: 100vw;
+}
+
+.about-me-description {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  width: 50vw;
+  color: white;
+  padding: 45px;
+  position: inherit;
+  text-align: center;
+}
+
+#dark-green-text {
+  color: #24301e;
+}
+
+.about-me-picture {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.profile-pic {
+  height: auto;
+  width: 95%;
+  min-width: 95%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 2px #24301e;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200vh;
+  width: 100vw;
+  background-color: #fefefc;
+}
+
+.technologies-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  color: rgb(1, 56, 1);
+  /* background-color: rgb(1, 56, 1); */
+}
+
+.technologies-container > h2 {
+  align-self: center;
+  font-size: 45px;
+  padding-top: 25px;
+}
+
+.technology-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.technology-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.technology-img-container > img {
+  height: 80px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.projects-container > h2 {
+  margin: 50px;
+  font-size: 45px;
+  color: rgb(1, 56, 1);
+}
+
+.individual-project-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.project-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 30vw;
+  margin-right: 2.5%;
+}
+
+.project-image {
+  width: 110%;
+  border-radius: 5px;
+  border: 1px solid #88a17b;
+  /* padding-top: 2px; */
+}
+
+.project-side-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 95%;
+  width: 55vw;
+}
+
+.project-description {
+  width: 85%;
+}
+
+.project-description > h3 {
+  font-size: 32.5px;
+  color: rgb(1, 56, 1);
+}
+
+.project-description > p {
+  color: #88a17b;
+  font-size: 18px;
+}
+
+.project-3 {
+  margin-bottom: 50px;
+}
+
+.project-links-container {
+  margin: 0px;
+  padding: 0;
+}
+
+.project-links-container > p {
+  color: #88a17b;
+}
+
+.project-links > a {
+  text-decoration: none;
+  color: rgb(1, 56, 1);
+}
+
+.project-links > a:hover {
+  color: #88a17b;
+}
+
+@keyframes intro {
+  0% {
+    margin-right: 150%;
+  }
+  100% {
+    margin-right: 0%;
+  }
+}

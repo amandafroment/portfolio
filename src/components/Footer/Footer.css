@@ -1,0 +1,36 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  background-color: #88a17b;
+  height: 100px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.github-link {
+  text-decoration: none;
+  color: white;
+}
+
+.github-link:hover {
+  color: rgb(1, 56, 1);
+  cursor: pointer;
+}
+
+.indeed-link {
+  text-decoration: none;
+  color: white;
+}
+
+.indeed-link:hover {
+  color: rgb(1, 56, 1);
+  cursor: pointer;
+}
+
+.contact-info {
+  margin: 2px;
+}
