@@ -9,7 +9,7 @@ import project3 from "../../images/YOUMOVE-screenshot.png";
 import awsimg from "../../images/AWS.png";
 import cssimg from "../../images/CSS.png";
 import djangoimg from "../../images/Django.png";
-import expressimg from "../../images/Express.png";
+import expressimg from "../../images/Expressjs.png";
 import gitimg from "../../images/Git.png";
 import herokuimg from "../../images/Heroku.png";
 import htmlimg from "../../images/HTML.png";
@@ -19,7 +19,7 @@ import mongodbimg from "../../images/MongoDB.png";
 import mongooseimg from "../../images/Mongoose.png";
 import nodeimg from "../../images/Node.png";
 import postgresqlimg from "../../images/Postgres.png";
-import pythonimg from "../../images/Python.png";
+import pythonimg from "../../images/python2.png";
 import reactimg from "../../images/React.png";
 import sqlimg from "../../images/SQL.png";
 
@@ -69,8 +69,27 @@ export default function App() {
           <div className="projects-container">
             <div className="technologies-container">
               <h2>Languages && Technologies</h2>
-              <div className="technology-img-container">
-                <img src={awsimg}></img>
+              <div className="technology-section">
+                <div className="technology-img-container">
+                  <img src={htmlimg}></img>
+                  <img src={cssimg}></img>
+                  <img src={jsimg}></img>
+                  <img src={reactimg}></img>
+                  <img src={nodeimg}></img>
+                  <img src={expressimg}></img>
+                  <img src={mongodbimg}></img>
+                  <img src={mongooseimg}></img>
+                </div>
+                <div className="technology-img-container">
+                  <img src={pythonimg}></img>
+                  <img src={djangoimg}></img>
+                  <img src={materialimg}></img>
+                  <img src={sqlimg}></img>
+                  <img src={postgresqlimg}></img>
+                  <img src={awsimg}></img>
+                  <img src={herokuimg}></img>
+                  <img src={gitimg}></img>
+                </div>
               </div>
             </div>
             <h2>Previous Projects</h2>
@@ -82,12 +101,11 @@ export default function App() {
                 <div className="project-description">
                   <h3>kinnectMe</h3>
                   <p>
-                    An online directory of user created events, where users can
-                    connect with others through events. Users can sign in,
-                    create their own event, or attend events near them. Users
-                    that want to know more about an event can comment on the
-                    event details page to connect with the host or other
-                    attendees.
+                    A place of connection through kinship: sign in to start
+                    creating your own event, or attend other's events based on
+                    shared interests! If you have any questions about an event,
+                    click into the event to find out more details, as well as
+                    ask questions to the host or other people attending.
                   </p>
                   <p>
                     #Features: JWT for authentication, CRUD operations, mobile
@@ -123,12 +141,12 @@ export default function App() {
                   {" "}
                   <h3>BeanThere</h3>
                   <p>
-                    An online directory used for discovering local cafe scenes
-                    specifically catered to students or those who work from home
-                    and are looking for great workspaces (and caffeine!) in
-                    their area. A user can sign up and review cafes they have
-                    been to according to the working conditions. They can also
-                    favourite cafes and see other user's reviews.
+                    Do you work from home, but feel like getting out of the
+                    house and working from a cafe? BeanThere can help you
+                    discover local cafe scenes specifically catered to students
+                    or those who work from home and are looking for great
+                    workspaces (and caffeine!) in their area. You can read other
+                    people's reviews on the cafe, or write your own!
                   </p>
                   <p>
                     #Features: Yelp Fusion API, CRUD operations, mobile
@@ -164,13 +182,12 @@ export default function App() {
                   {" "}
                   <h3>YOUMOVE</h3>
                   <p>
-                    A health-focused app that allows users to plan and make
-                    changes to their workouts. Each user has their own account
-                    by logging in through Google - once they have logged in,
-                    they are able to create workouts, as well as add exercises
-                    to those specific workouts. Users are able to edit or delete
-                    the exercises they add to their workouts, as well as delete
-                    entire workouts altogether.
+                    Need some help keeping track of your workouts? YOUMOVE is a
+                    health-focused app that allows you to plan and make changes
+                    to your workouts. Once you have logged in through Google,
+                    you can create workouts and add exercises to those specific
+                    workouts. You can also edit or delete the exercises or
+                    delete entire workouts altogether. Let's start planning!
                   </p>
                   <p>
                     #Features: Google Oauth, CRUD operations, mobile responsive
