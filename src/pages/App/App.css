@@ -639,6 +639,13 @@ figure {
     width: 32.5vw;
   }
 
+  .profile-pic {
+    width: 80%;
+    min-width: 80%;
+    border-radius: 50%;
+    box-shadow: 0px 3px 2px #24301e;
+  }
+
   .projects-container {
     display: flex;
     flex-direction: column;
